@@ -1,0 +1,5 @@
+libnet-lpr-perl (1.007-1) unstable; urgency=low
+
+  * Initial Release.
+
+ -- Ryan Niebur <ryan@cat.pdx.edu>  Mon, 24 Mar 2014 19:34:21 -0700
