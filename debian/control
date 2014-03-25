@@ -4,13 +4,13 @@ Priority: optional
 Maintainer: Ryan Niebur <ryan@cat.pdx.edu>
 Build-Depends: debhelper (>= 8)
 Build-Depends-Indep: perl
-Standards-Version: 3.9.2
+Standards-Version: 3.9.4
 Homepage: http://search.cpan.org/dist/Net-LPR/
 
 Package: libnet-lpr-perl
 Architecture: all
 Depends: ${misc:Depends}, ${perl:Depends}
-Description: (no short description found)
- (no description was found)
- .
- This description was automagically extracted from the module by dh-make-perl.
+Description: perl extension for printing to RFC1179-compliant print servers
+ This module implements a low-level interface into a line printer
+ daemon connection. It implements all the commands listed in RFC 1179,
+ including queue control commands and output file formatting commands.
